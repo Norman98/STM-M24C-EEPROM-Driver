@@ -50,7 +50,7 @@ EepromM24C<EepromM24CModel::M24C16> eeprom(i2c_instance);
 3. Perform Operations
 Use the following methods to read, write, and erase data on the EEPROM.
 
-```
+```cpp
 // Write a byte
 eeprom.WriteByte(0x000A, 0xFF);
 
@@ -77,8 +77,8 @@ struct EepromModelTraits<EepromM24CModel::M24C32> {
 };
 ```
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Author
+## Author
 Norman Dryś
